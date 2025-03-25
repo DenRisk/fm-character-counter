@@ -1,0 +1,9 @@
+<div class="text-density-visualisation">
+  <div class="text-density-letter text-preset-4">{{ letter }}</div>
+  <div class="text-density-graph">
+    <div class="text-density-bar" [style.width]="getBarWidth()"></div>
+  </div>
+  <div class="text-density-result text-preset-4">
+    {{ count }} ({{ percentage }}%)
+  </div>
+</div>

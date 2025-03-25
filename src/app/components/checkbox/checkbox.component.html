@@ -1,0 +1,9 @@
+<label class="checkbox-container">
+  <input
+    type="checkbox"
+    [disabled]="disabled"
+    [checked]="checked"
+    (change)="toggleChecked()"
+  />
+  <span class="checkmark text-preset-4">{{ label }}</span>
+</label>

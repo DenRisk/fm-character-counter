@@ -1,0 +1,30 @@
+:root {
+  --color-neutral-900: #12131a;
+  --color-neutral-800: #21222c;
+  --color-neutral-700: #2a2b37;
+  --color-neutral-600: #404254;
+  --color-neutral-200: #e4e4ef;
+  --color-neutral-100: #f2f2f7;
+  --color-neutral-0: #ffffff;
+
+  --color-purple-500: #d3a0fa;
+  --color-purple-400: #c27cf8;
+  --color-yellow-500: #ff9f00;
+  --color-orange-800: #da3701;
+  --color-orange-500: #fe8159;
+
+  --font-size-small: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-large: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2.5rem;
+  --font-size-3xl: 4rem;
+
+  --line-height-100: 1;
+  --line-height-130: 1.3;
+  --line-height-140: 1.4;
+
+  --font-weight-regular: 400;
+  --font-weight-semiBold: 600;
+  --font-weight-bold: 700;
+}

@@ -1,0 +1,30 @@
+<div class="illustration" [class]="'illustration--' + colorTheme">
+  <div class="text-preset-1">{{ value }}</div>
+  <p class="text-preset-3">{{ label }}</p>
+
+  <div class="illustration-icon">
+    <ng-container [ngSwitch]="colorTheme">
+      <ng-container *ngSwitchCase="'char'">
+        <ng-container *ngTemplateOutlet="charCount"></ng-container>
+      </ng-container>
+      <ng-container *ngSwitchCase="'word'">
+        <ng-container *ngTemplateOutlet="wordCount"></ng-container>
+      </ng-container>
+      <ng-container *ngSwitchCase="'sentence'">
+        <ng-container *ngTemplateOutlet="sentenceCount"></ng-container>
+      </ng-container>
+    </ng-container>
+  </div>
+</div>
+
+<ng-template #charCount>
+  <app-icon [id]="'characterCountPattern'"></app-icon>
+</ng-template>
+
+<ng-template #sentenceCount>
+  <app-icon [id]="'sentenceCountPattern'"></app-icon>
+</ng-template>
+
+<ng-template #wordCount>
+  <app-icon [id]="'wordCountPattern'"></app-icon>
+</ng-template>

@@ -1,0 +1,7 @@
+<button (click)="toggleTheme()" class="theme-button">
+  @if (isDarkMode()) {
+  <app-icon [id]="'sun'" [color]="'red'"></app-icon>
+  }@else {
+  <app-icon [id]="'moon'"></app-icon>
+  }
+</button>

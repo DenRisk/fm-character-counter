@@ -27,7 +27,9 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles/variables.css",
+              "src/styles/global.css",
+              "src/styles/utils.css"
             ],
             "scripts": []
           },
@@ -85,7 +87,9 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles/variables.css",
+              "src/styles/global.css",
+              "src/styles/utils.css"
             ],
             "scripts": []
           }

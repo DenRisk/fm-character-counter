@@ -1,0 +1,34 @@
+.illustration {
+  position: relative;
+  padding: 1.5rem 1rem;
+  border-radius: 12px;
+  background-color: var(--color-purple-400);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: var(--color-neutral-900);
+  overflow: hidden;
+
+  p {
+    z-index: 100;
+  }
+}
+
+.illustration--char {
+  background-color: var(--color-purple-400);
+}
+
+.illustration--word {
+  background-color: var(--color-yellow-500);
+}
+
+.illustration--sentence {
+  background-color: var(--color-orange-500);
+}
+
+.illustration-icon {
+  position: absolute;
+  right: -2rem;
+  top: 0;
+  bottom: 0;
+}

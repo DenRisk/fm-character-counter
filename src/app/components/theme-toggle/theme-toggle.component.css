@@ -1,0 +1,20 @@
+.theme-button {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-neutral-700);
+  transition: background-color 0.3s;
+
+  @media screen and (min-width: 768px) {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}

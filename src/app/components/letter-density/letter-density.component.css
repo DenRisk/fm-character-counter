@@ -1,0 +1,31 @@
+.text-density-visualisation {
+  display: grid;
+  grid-template-columns: 1rem 1fr 100px;
+  gap: 1rem;
+  align-items: center;
+}
+
+.text-density-letter {
+  font-weight: var(--font-weight-bold);
+  width: 1rem;
+}
+
+.text-density-graph {
+  flex: 1;
+  height: 0.75rem;
+  background-color: var(--color-neutral-800);
+  border-radius: 99px;
+  overflow: hidden;
+  position: relative;
+}
+
+.text-density-bar {
+  height: 100%;
+  background-color: var(--color-purple-400);
+  transition: width 0.3s ease-in-out;
+}
+
+.text-density-result {
+  min-width: 80px;
+  text-align: right;
+}
