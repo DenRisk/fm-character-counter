@@ -1,59 +1,60 @@
-# CharacterCounter
+# Frontend Mentor - Character counter solution
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+This is a solution to the [Character counter challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/character-counter-znSgeWs_i6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Development server
+## Table of contents
 
-To start a local development server, run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
-```bash
-ng serve
-```
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Overview
 
-## Code scaffolding
+### The challenge
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Users should be able to:
 
-```bash
-ng generate component component-name
-```
+- Analyze the character, word, and sentence counts for their text
+- Exclude/Include spaces in their character count
+- Set a character limit
+- Receive a warning message if their text exceeds their character limit
+- See the approximate reading time of their text
+- Analyze the letter density of their text
+- Select their color theme
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Screenshot
 
-```bash
-ng generate --help
-```
+![](./public/screenshots/CharacterCounter_Dark.png)
+![](./public/screenshots/CharacterCounter_Light.png)
 
-## Building
+### Links
 
-To build the project run:
+- Solution URL:(https://github.com/DenRisk/fm-character-counter)
+- Live Site URL: (https://denrisk.github.io/fm-character-counter/)
 
-```bash
-ng build
-```
+## My process
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### Built with
 
-## Running unit tests
+- Semantic HTML5 markup
+- CSS custom properties
+- Mobile-first workflow
+- [Angular](https://angular.dev/)
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### What I learned
 
-```bash
-ng test
-```
+I took advantage of this project to learn more about the new way of developing Angular projects. I used version 19 to use standalone components and signals for the implementation.
 
-## Running end-to-end tests
+## Author
 
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- GitHub - [DenRisk GitHub](https://github.com/DenRisk)
+- Frontend Mentor - [DenRisk Frontend Mentor](https://www.frontendmentor.io/profile/DenRisk)
